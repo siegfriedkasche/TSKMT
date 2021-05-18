@@ -1,0 +1,12 @@
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_KOR_infantry_equipment_10_medium"
+		texturefile = "gfx/interface/technologies/infantry/2020_infantry_equipment.png"
+	}
+
+
+	SpriteType = {#KFX
+		name = "GFX_KOR_m_2030_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/infantry/m_2030_jet_multirole_equipment.png"
+	}
+}

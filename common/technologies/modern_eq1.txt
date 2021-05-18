@@ -1,0 +1,16 @@
+technologies = {
+
+	m_2020_infantry_eq = { #K11
+
+		enable_equipments = { 
+			infantry_equipment_10
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+}
