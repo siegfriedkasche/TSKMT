@@ -14,4 +14,9 @@ spriteTypes = {
 		name = "GFX_Heckler_und_Koch_Gewehr_11_medium"
 		texturefile = "gfx/interface/technologies/infantry/Heckler_und_Koch_Gewehr_11.png"
 	}
+
+	SpriteType = {#hk g11
+		name = "GFX_k1e1_tank_equipment_medium"
+		texturefile = "gfx/interface/technologies/infantry/k1e1_tank_equipment.png"
+	}
 }

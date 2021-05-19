@@ -41,4 +41,18 @@ technologies = {
 			always = no
 		}
 	}
+
+	k1e1_tank_equipment = { #kf-21 #uipment
+
+		enable_equipments = { 
+			k1e1_tank_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
 }
