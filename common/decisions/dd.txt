@@ -5,10 +5,10 @@ crazy_H_UND_K = {
 
 	crazy_H_UND_K_1 = { #총신 개발
 		available = {
-			date < 1960.01.01
+			date > 1960.01.01
 		}
 		visible = {
-			date < 1960.01.01
+			date > 1960.01.01
 		}
 		cost = 100
 		fire_only_once = yes
