@@ -1,0 +1,123 @@
+@MAN_HUNT_BANDITS_EQUIPMENT_COST_TRIGGER = 499
+@MAN_HUNT_BANDITS_EQUIPMENT_COST_EFFECT = -500
+
+crazy_H_UND_K = {
+
+	crazy_H_UND_K_1 = { #총신 개발
+		available = {
+			date < 1960.01.01
+		}
+		visible = {
+			date < 1960.01.01
+		}
+		cost = 100
+		fire_only_once = yes
+		days_remove = 120
+		is_good = no
+		remove_effect = { 
+			set_country_flag = HK_compeleted_line
+		}
+	}
+	crazy_H_UND_K_2 = {
+		available = {
+			has_country_flag = HK_compeleted_line
+		}
+		
+		cost = 100
+		fire_only_once = yes
+		days_remove = 120
+		is_good = no
+		remove_effect = { 
+			set_country_flag = HK_compeleted_body
+			clr_country_flag = HK_compeleted_line
+		}
+	}
+	crazy_H_UND_K_3 = {
+		available = {
+			has_country_flag = HK_compeleted_body
+		}
+		
+		cost = 100
+		fire_only_once = yes
+		days_remove = 120
+		is_good = no
+		remove_effect = { 
+			set_country_flag = HK_compeleted_cartridge_case
+			clr_country_flag = HK_compeleted_body
+		}
+	}
+	crazy_H_UND_K_4 = {
+		available = {
+			has_country_flag = HK_compeleted_cartridge_case
+		}
+		
+		cost = 100
+		fire_only_once = yes
+		days_remove = 120
+		is_good = no
+		remove_effect = { 
+			set_country_flag = HK_compeleted_gunpowder
+			clr_country_flag = HK_compeleted_cartridge_case
+		}
+	}
+	crazy_H_UND_K_5 = {
+		available = {
+			has_country_flag = HK_compeleted_gunpowder
+		}
+		
+		cost = 100
+		fire_only_once = yes
+		days_remove = 120
+		is_good = no
+		remove_effect = { 
+			set_country_flag = HK_compeleted_cartridge
+			clr_country_flag = HK_compeleted_gunpowder
+		}
+	}
+	crazy_H_UND_K_6 = {
+		available = {
+			has_country_flag = HK_compeleted_cartridge
+		}
+		
+		cost = 100
+		fire_only_once = yes
+		days_remove = 120
+		is_good = no
+		remove_effect = { 
+			set_country_flag = HK_compeleted_Prototype
+			clr_country_flag = HK_compeleted_cartridge
+		}
+	}
+	crazy_H_UND_K_7 = {
+		available = {
+			has_country_flag = HK_compeleted_Prototype
+		}
+		
+		cost = 100
+		fire_only_once = yes
+		days_remove = 120
+		is_good = no
+		remove_effect = { 
+			set_country_flag = HK_compeleted_Pilot_operation
+			clr_country_flag = HK_compeleted_Prototype
+		}
+	}
+	crazy_H_UND_K_8 = {
+		available = {
+			has_country_flag = HK_compeleted_Pilot_operation
+		}
+		
+		cost = 300
+		fire_only_once = yes
+		days_remove = 150
+		is_good = no
+		remove_effect = { 
+			set_technology = {
+				Heckler_und_Koch_Gewehr_11 = 1
+			}
+			hidden_effect = {
+				clr_country_flag = HK_compeleted_Pilot_operation
+			}
+		}
+	}
+}

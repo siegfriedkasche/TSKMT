@@ -13,4 +13,32 @@ technologies = {
 			always = no
 		}
 	}
+
+	m_2030_jet_multirole_eq = { #kf-21 #uipment
+
+		enable_equipments = { 
+			m_2030_jet_multirole_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+
+	Heckler_und_Koch_Gewehr_11 = { #kf-21 #uipment
+
+		enable_equipments = { 
+			Heckler_und_Koch_Gewehr_11
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
 }

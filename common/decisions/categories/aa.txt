@@ -1,0 +1,13 @@
+crazy_H_UND_K = {
+
+	picture = GFX_crazy_H_UND_K
+
+	icon = GFX_decision_category_infiltration
+	
+	allowed = {
+		and = {
+		date < 1960.01.01
+		original_tag = GER
+		}
+	}
+}

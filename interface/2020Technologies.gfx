@@ -9,4 +9,9 @@ spriteTypes = {
 		name = "GFX_KOR_m_2030_jet_multirole_equipment_medium"
 		texturefile = "gfx/interface/technologies/infantry/m_2030_jet_multirole_equipment.png"
 	}
+
+	SpriteType = {#hk g11
+		name = "GFX_Heckler_und_Koch_Gewehr_11_medium"
+		texturefile = "gfx/interface/technologies/infantry/Heckler_und_Koch_Gewehr_11.png"
+	}
 }
