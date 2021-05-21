@@ -55,4 +55,46 @@ technologies = {
 			always = no
 		}
 	}
+
+    m_1972_infantry_eq = { #mx 소총
+	
+	    enable_equipments = {
+		     infantry_equipment_11
+	    }
+		
+		research_cost = 1
+		start_year = 1936
+		
+		allow = {
+		   always = no
+		}
+    }
+	
+	m_1972_support_eq = { # M1919 A4
+	
+	   enable_equipments = {
+	        support_infantry_equipment_5
+		 }
+		 
+		 research_cost = 1
+		 start_year = 1936
+		 
+		 allow = {
+		    always = no
+		}
+	}
+	
+	m_1970_support_eq = { # M1919 A6
+	
+	   enable_equipments = {
+	        support_infantry_equipment_6
+		 }
+		 
+		 research_cost = 1
+		 start_year = 1936
+		 
+		 allow = {
+		    always = no
+		}
+	}
 }

@@ -19,4 +19,22 @@ spriteTypes = {
 		name = "GFX_k1e1_tank_equipment_medium"
 		texturefile = "gfx/interface/technologies/infantry/k1e1_tank_equipment.png"
 	}
+	
+	SpriteType = {#MX 소총
+		name = "GFX_KOR_infantry_equipment_11_medium"
+		texturefile = "gfx/interface/technologies/infantry/1972_infantry_equipment.dds"
+	}
+
+   SpriteType = {#M1919 A4
+		name = "GFX_KOR_support_infantry_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/infantry/61.dds"
+	}
+	
+	SpriteType = {#M1919 A6
+		name = "GFX_KOR_support_infantry_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/infantry/dd.dds"
+	}
+
+
+
 }
